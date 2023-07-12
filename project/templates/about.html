@@ -1,0 +1,51 @@
+{% extends 'basic.html' %}
+{% block title %} About {% endblock title %}
+{% block body %}
+{% load static %}
+ <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>I am a passionate and skilled full-stack developer Familar with HTML, CSS, Js, Python, Django, and Bootstrap. With a strong foundation in web development, I strive to create beautiful and functional user interfaces that deliver exceptional user experiences.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="{% static 'assets/img/ark.jpg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Am Freelancer &amp; Web Developer.</h3>
+            <p class="fst-italic">
+              As I delved deeper into the world of web development, I honed my skills in Python and Django to become a proficient back-end developer. I am experienced in building dynamic and scalable web applications, leveraging the power of Django's robust framework.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>30 March 1996</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+251 92309 5459,  +251 93845 7556</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Addis Ababa, Ethiopia</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>26</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>BSc.</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>hailegb2021@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Certificate:</strong> <span>ALX-HOLBERTON Software Engineering</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              Furthermore, I have a solid understanding of Bootstrap, a popular front-end framework that allows me to create mobile-friendly and responsive websites efficiently. With Bootstrap's extensive set of pre-built components and responsive grid system, I can ensure seamless experiences across devices and screen sizes.
+
+Beyond technical skills, I am a dedicated problem solver and a proactive collaborator. I thrive in team environments and value effective communication and collaboration to deliver exceptional results. I am constantly expanding my knowledge and staying up to date with the latest trends and best practices in web development to deliver innovative solutions.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+{% endblock body %}
